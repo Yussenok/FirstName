@@ -1,0 +1,99 @@
+body {
+    background-color:#EEDEC5;
+    font-family: FreeMono, monospace;
+    color: rgb(33,27,61);
+}
+
+.header {
+    text-align: center;
+}
+
+.I_am {
+    width: 300px;;
+}
+
+.heder__title {
+    font-size: 34px;
+    margin-bottom: -15px;
+}
+
+.header__subtitle {
+    font-size: 19px;
+}
+
+.main {
+    border: 1px solid #8B4513;
+    text-align: center;
+}
+
+.skills ol {
+    list-style: none;
+}
+
+.separator {
+    width: 50%;
+    height: 1px;
+    background-color: #4D5466;
+}
+
+.video {
+    width: 800px;
+    height: 490px;
+    border: none;
+}
+
+.hobbies ol {
+    list-style: none;
+}
+
+.ed__table {
+    border-collapse: collapse;
+    width: 98%;
+    margin: auto;
+}
+
+.ed__table th,
+.ed__table td {
+    border: 1px solid #8B4513;
+    padding: 5px;
+}
+
+.quote {
+    font-size: 32px;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__control {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.control__text {
+    width: 60%;
+}
+
+.form__submit {
+    display: block;
+    border-color: #4D5466;
+    margin: auto;
+    width: 57,5px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #8B4513;
+}
+
+

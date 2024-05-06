@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/Iam.jpg" alt="my photo" class="I_am">
+        <h1 class="heder__title">Sailor Moon | CV</h1>
+        <h3 class="header__subtitle">Воин любви и справедливости</h3>
+    </header>
+
+    <main class="main">
+        <section class="skills">
+            <h3>Skils</h3>
+            <details>
+                <summary>Skils list</summary>
+                <ol>
+                    <li>1. Бессмертие</li>
+                    <li>2. Сверхсила</li>
+                    <li>3. Манипуляция энергией</li>
+                    <li>4. Телепатия</li>
+                    <li>5. Призыв</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+
+            <p>
+                Однажды бежав, Усаги заметила как мальчишки издеваются над кошкой. Она спасла кошку и побежала в школу. Вечером того же дня, кошка Луна прибыла и подарила ей брошь, с помощью которой она может превращаться в могучего сейлор-воина любви и справедливости Сейлор Мун. Кошка объяснила, что теперь у неё есть миссия и она должна сражаться с монстрами и найти лунную принцессу. Чуть позже кошка дарит ей волшебную ручку, чтобы она могла изменять свой внешний облик (правда, она любит её использовать не только по делу). Позже выясняется, что Сейлор Мун и есть лунная принцесса, которую так долго искали.
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="my photo">
+            <img src="https://placehold.co/250x250" alt="my photo">
+            <img src="https://placehold.co/250x250" alt="my photo">
+        </section>
+
+        <hr class="separator">
+
+        <section>
+            <iframe class="video" width="498" height="480" src="https://www.youtube.com/embed/qeqRVfEknhc" title="Moon Spiral Heart Attack" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies</h4>
+            
+            <details>
+                <summary>Hobbies</summary>
+
+                <ol>
+                    <li>1. Skilling</li>
+                    <li>2. Video</li>
+                    <li>3. Audio</li>
+                </ol>
+
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>Сезон</th>
+                        <th>История</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Спасение черной кошки</td>
+                        <td>1992</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Про Дерево Мира Духов (Дерево Тёмного Мира) и про Хрустальный Токио и войну с Немезисом.</td>
+                        <td>1993</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td> Усаги и Сатурн отправляются на сражение и побеждают. Хотару стала очень маленькой, о ней заботится подобревший отец.</td>
+                        <td>1994</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Нехеления удалилась, цирк исчез, а Супер Сейлор Мун и Супер Сейлор Чиби Мун получают новое дополнение к своему превращению — крылья ангела.</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Звёздные Сейлорвоины вместе с вернувшейся принцессой возвращаются в свой родной мир, чтобы восстановить всё, что было разрушено Галаксией.</td>
+                        <td>1996</td>
+                    </tr>
+                </tbody>
+
+                <tfoot></tfoot>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Если хочешь чего-то добиться, надо действовать! Даже, если совсем нет надежды!
+            </blockquote>
+        </section>
+
+        <section class="int">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    
+                    <legend>Required fields:</legend>
+                  
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" required class="form__control" placeholder="First Name">
+                    
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" required class="form__control" placeholder="Last Name">
+                    
+                    <label for="email-id">Email</label>
+                    <input type="email" name="email" id="email" required class="form__control" placeholder="Email">  
+                                   
+                </fieldset>
+                
+                <br>
+
+                <textarea name="questions" cols="75" rows="3" class="form__control control__text" placeholder="Your questions"></textarea>
+                <br>
+                <button class="form__submit">Submit</button>    
+                <br>
+            </form>
+        </section>
+    </main>
+    <hr class="separator">
+    <footer>
+        <address>
+            <a href="mailto:SailorMood@mail.ru" class="contacts__link">SailorMood@mail.ru</a>
+            <br>
+            <a href="tel:+3885949403" class="contacts__link">+3885949403</a>
+            <br>
+            <a href="address" class="contacts__link">Токио, район Минато, Станция Адзабу-Дзюбан</a>
+        </address>
+    </footer>
+</body>
+</html>
